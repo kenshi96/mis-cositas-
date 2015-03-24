@@ -1,0 +1,15 @@
+package perimetroCuadrado;
+import java.util.Scanner;
+public class perimetroCuadrado {
+	public static void main(String[] arg){
+		int lado,perimetro;
+		Scanner teclado=new Scanner(System.in);
+		System.out.print("Ingrese el valor del lado:");
+		lado=teclado.nextInt();
+		perimetro=lado*4;
+		System.out.print("El perímetro del cuadrado es:");
+		System.out.print(perimetro);
+		
+	}
+
+}
